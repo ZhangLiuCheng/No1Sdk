@@ -1,0 +1,1 @@
+../../../RNCMaskedView/ios/RNCMaskedViewManager.h

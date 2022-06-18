@@ -1,0 +1,1 @@
+../../../RNSVG/apple/Brushes/RNSVGPainterBrush.h

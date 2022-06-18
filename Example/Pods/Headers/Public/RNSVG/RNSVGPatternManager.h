@@ -1,0 +1,1 @@
+../../../RNSVG/apple/ViewManagers/RNSVGPatternManager.h

@@ -1,0 +1,1 @@
+../../../BVLinearGradient/BVLinearGradient/BVLinearGradientManager.h

@@ -1,0 +1,1 @@
+../../../RNSVG/apple/Utils/RNSVGVectorEffect.h

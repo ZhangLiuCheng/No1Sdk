@@ -1,0 +1,1 @@
+../../../ReactNativeART/ios/ViewManagers/ARTGroupManager.h

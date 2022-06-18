@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SdkDemoController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="VtT-CG-oQM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dcl-C5-XiR">
+                    <rect key="frame" x="277" y="91" width="150" height="44"/>
+                    <color key="backgroundColor" name="AccentColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="e5G-Wr-H2f"/>
+                        <constraint firstAttribute="height" constant="44" id="pDz-LS-Ws8"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <buttonConfiguration key="configuration" style="gray" title="私人训练馆"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="toTrainMine:" destination="-1" eventType="touchUpInside" id="XHG-WV-0UB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5t-Ck-1Fb">
+                    <rect key="frame" x="277" y="174" width="150" height="44"/>
+                    <color key="backgroundColor" name="AccentColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="JFe-2m-w76"/>
+                        <constraint firstAttribute="width" constant="150" id="KEg-xN-XWb"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <buttonConfiguration key="configuration" style="gray" title="战队"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="toTeamMain:" destination="-1" eventType="touchUpInside" id="iMw-9f-dJL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SDV-L7-Hzr">
+                    <rect key="frame" x="484" y="174" width="150" height="44"/>
+                    <color key="backgroundColor" name="AccentColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="YDC-Mm-wMf"/>
+                        <constraint firstAttribute="width" constant="150" id="urW-y4-z85"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <buttonConfiguration key="configuration" style="gray" title="俱乐部"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="toClubMain:" destination="-1" eventType="touchUpInside" id="lyw-3y-u0Q"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIP-4m-ND7">
+                    <rect key="frame" x="686" y="91" width="150" height="44"/>
+                    <color key="backgroundColor" name="AccentColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="a89-5A-feb"/>
+                        <constraint firstAttribute="width" constant="150" id="xct-UX-uUO"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <buttonConfiguration key="configuration" style="gray" title="专业赛事"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="toMatchMain:" destination="-1" eventType="touchUpInside" id="z9Y-eX-0VO"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9U-o8-lUz">
+                    <rect key="frame" x="79" y="174" width="150" height="44"/>
+                    <color key="backgroundColor" name="AccentColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="0Ke-BM-Au6"/>
+                        <constraint firstAttribute="height" constant="44" id="mM2-O9-cou"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <buttonConfiguration key="configuration" style="gray" title="更多训练馆"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="toTrainMore:" destination="-1" eventType="touchUpInside" id="2no-Hc-jnE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7c-zV-SKM">
+                    <rect key="frame" x="277" y="255" width="150" height="44"/>
+                    <color key="backgroundColor" name="AccentColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="Rye-DW-vdF"/>
+                        <constraint firstAttribute="height" constant="44" id="hii-AZ-onE"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <buttonConfiguration key="configuration" style="gray" title="个人中心"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="toPersonal:" destination="-1" eventType="touchUpInside" id="aWE-HJ-g6n"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFl-75-M6A">
+                    <rect key="frame" x="484" y="255" width="150" height="44"/>
+                    <color key="backgroundColor" name="AccentColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="EoE-c3-xhv"/>
+                        <constraint firstAttribute="width" constant="150" id="LH0-va-bag"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <buttonConfiguration key="configuration" style="gray" title="战绩"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="toRecordMain:" destination="-1" eventType="touchUpInside" id="DOy-zR-iNz"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yc9-kt-Faa">
+                    <rect key="frame" x="686" y="255" width="150" height="44"/>
+                    <color key="backgroundColor" name="AccentColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="1f6-sP-CvK"/>
+                        <constraint firstAttribute="height" constant="44" id="7Mj-Vj-mNe"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <buttonConfiguration key="configuration" style="gray" title="加入训练赛"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="toMatchJoin:" destination="-1" eventType="touchUpInside" id="DaP-f0-xKg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="peY-PF-b71">
+                    <rect key="frame" x="79" y="255" width="150" height="44"/>
+                    <color key="backgroundColor" name="AccentColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="2Wv-dh-wps"/>
+                        <constraint firstAttribute="height" constant="44" id="c0k-i6-RyV"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <buttonConfiguration key="configuration" style="gray" title="商城"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="toMallMain:" destination="-1" eventType="touchUpInside" id="Hd8-ap-a2D"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3WK-ic-hjH">
+                    <rect key="frame" x="482" y="91" width="150" height="44"/>
+                    <color key="backgroundColor" name="AccentColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="Dge-6f-LjE"/>
+                        <constraint firstAttribute="height" constant="44" id="OGd-cC-lx5"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <buttonConfiguration key="configuration" style="gray" title="创建训练赛"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="toMatchCreate:" destination="-1" eventType="touchUpInside" id="h7Y-q1-mif"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xxv-jF-PKr">
+                    <rect key="frame" x="686" y="174" width="150" height="44"/>
+                    <color key="backgroundColor" name="AccentColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="VpR-KG-rdx"/>
+                        <constraint firstAttribute="width" constant="150" id="yEp-Kf-wLa"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <buttonConfiguration key="configuration" style="gray" title="能力分析"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="toDataMain:" destination="-1" eventType="touchUpInside" id="2Bp-4U-9Vi"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlq-gg-Auu">
+                    <rect key="frame" x="79" y="91" width="150" height="44"/>
+                    <color key="backgroundColor" name="AccentColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="687-Pn-kUy"/>
+                        <constraint firstAttribute="height" constant="44" id="Jvd-9V-Yu7"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <buttonConfiguration key="configuration" style="gray" title="登录"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="sdkLogin:" destination="-1" eventType="touchUpInside" id="rRP-8w-9Ai"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="3WK-ic-hjH" firstAttribute="trailing" secondItem="Dcl-C5-XiR" secondAttribute="trailing" constant="205" id="1n3-jd-YWg"/>
+                <constraint firstItem="k7c-zV-SKM" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="70" id="6Hn-fl-teX"/>
+                <constraint firstItem="d5t-Ck-1Fb" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-11" id="BVb-nq-IeQ"/>
+                <constraint firstItem="3WK-ic-hjH" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-94" id="C7m-oa-ozd"/>
+                <constraint firstItem="SDV-L7-Hzr" firstAttribute="top" secondItem="d5t-Ck-1Fb" secondAttribute="top" id="Dnj-e6-NGh"/>
+                <constraint firstItem="peY-PF-b71" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="70" id="ENk-Xm-X0a"/>
+                <constraint firstItem="d5t-Ck-1Fb" firstAttribute="top" secondItem="p9U-o8-lUz" secondAttribute="top" id="GLc-ux-ZtO"/>
+                <constraint firstItem="yc9-kt-Faa" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="313" id="HRV-mw-gdZ"/>
+                <constraint firstItem="peY-PF-b71" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="-294" id="Ldi-nK-kfA"/>
+                <constraint firstItem="Dcl-C5-XiR" firstAttribute="centerY" secondItem="jlq-gg-Auu" secondAttribute="centerY" id="M6a-hy-xX7"/>
+                <constraint firstItem="yc9-kt-Faa" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="70" id="N9J-PA-FCb"/>
+                <constraint firstItem="SDV-L7-Hzr" firstAttribute="leading" secondItem="d5t-Ck-1Fb" secondAttribute="leading" constant="207" id="WRQ-Yk-lnf"/>
+                <constraint firstItem="3WK-ic-hjH" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="109" id="ZH1-KG-Wee"/>
+                <constraint firstItem="FIP-4m-ND7" firstAttribute="top" secondItem="3WK-ic-hjH" secondAttribute="top" id="aV2-KY-LTO"/>
+                <constraint firstItem="Xxv-jF-PKr" firstAttribute="top" secondItem="SDV-L7-Hzr" secondAttribute="top" id="cMz-9s-2uJ"/>
+                <constraint firstItem="IFl-75-M6A" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="70" id="cQK-kL-39g"/>
+                <constraint firstItem="k7c-zV-SKM" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="-96" id="gQT-MI-sc9"/>
+                <constraint firstItem="d5t-Ck-1Fb" firstAttribute="trailing" secondItem="p9U-o8-lUz" secondAttribute="trailing" constant="198" id="id9-GL-xd8"/>
+                <constraint firstItem="IFl-75-M6A" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="111" id="ids-b2-1I0"/>
+                <constraint firstItem="3WK-ic-hjH" firstAttribute="top" secondItem="Dcl-C5-XiR" secondAttribute="top" id="q9o-r2-6FP"/>
+                <constraint firstItem="FIP-4m-ND7" firstAttribute="leading" secondItem="3WK-ic-hjH" secondAttribute="leading" constant="204" id="qAc-tC-fVS"/>
+                <constraint firstItem="Xxv-jF-PKr" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="313" id="vzo-PC-quN"/>
+                <constraint firstItem="d5t-Ck-1Fb" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="-96" id="xQh-cs-bk2"/>
+                <constraint firstItem="p9U-o8-lUz" firstAttribute="leading" secondItem="jlq-gg-Auu" secondAttribute="leading" id="zcn-Y3-rNb"/>
+                <constraint firstItem="Xxv-jF-PKr" firstAttribute="top" secondItem="SDV-L7-Hzr" secondAttribute="top" id="zs3-oc-cIa"/>
+            </constraints>
+            <point key="canvasLocation" x="138.61607142857142" y="53.623188405797109"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,30 @@
+{
+  "name": "No1Sdk",
+  "version": "0.1.0",
+  "summary": "A short description of No1Sdk.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liucheng zhang/No1Sdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liucheng zhang": "414616504@qq.com.com"
+  },
+  "source": {
+    "git": "https://github.com/liucheng zhang/No1Sdk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "No1Sdk/Classes/**/*",
+  "dependencies": {
+    "React-Core": [
+
+    ],
+    "BSDiff": [
+
+    ]
+  }
+}

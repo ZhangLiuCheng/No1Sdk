@@ -1,0 +1,6 @@
+framework module RNZipArchive {
+  umbrella header "RNZipArchive-umbrella.h"
+
+  export *
+  module * { export * }
+}

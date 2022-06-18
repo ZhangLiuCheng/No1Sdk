@@ -1,0 +1,1 @@
+../../../RNSVG/apple/Elements/RNSVGLinearGradient.h

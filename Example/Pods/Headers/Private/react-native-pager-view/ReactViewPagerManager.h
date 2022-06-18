@@ -1,0 +1,1 @@
+../../../react-native-pager-view/ios/ReactViewPagerManager.h

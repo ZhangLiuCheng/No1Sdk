@@ -1,0 +1,1 @@
+../../../RNScreens/ios/RNSScreenStackHeaderConfigComponentView.h
