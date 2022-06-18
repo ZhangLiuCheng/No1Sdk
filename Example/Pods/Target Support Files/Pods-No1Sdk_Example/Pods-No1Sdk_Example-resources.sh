@@ -97,6 +97,7 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/../../No1Sdk/Assets/bundle"
   install_resource "${PODS_ROOT}/RNVectorIcons/Fonts/AntDesign.ttf"
   install_resource "${PODS_ROOT}/RNVectorIcons/Fonts/Entypo.ttf"
   install_resource "${PODS_ROOT}/RNVectorIcons/Fonts/EvilIcons.ttf"
@@ -116,6 +117,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/../../No1Sdk/Assets/bundle"
   install_resource "${PODS_ROOT}/RNVectorIcons/Fonts/AntDesign.ttf"
   install_resource "${PODS_ROOT}/RNVectorIcons/Fonts/Entypo.ttf"
   install_resource "${PODS_ROOT}/RNVectorIcons/Fonts/EvilIcons.ttf"

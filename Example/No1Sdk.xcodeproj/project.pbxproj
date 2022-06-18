@@ -215,6 +215,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-No1Sdk_Example/Pods-No1Sdk_Example-resources.sh",
+				"${PODS_ROOT}/../../No1Sdk/Assets/bundle",
 				"${PODS_ROOT}/RNVectorIcons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/RNVectorIcons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/RNVectorIcons/Fonts/EvilIcons.ttf",
@@ -235,6 +236,7 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
