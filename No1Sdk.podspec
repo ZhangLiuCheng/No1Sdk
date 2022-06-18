@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'No1Sdk'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A short description of No1Sdk.'
 
 # This description is used to generate tags and improve search results.
@@ -33,9 +33,11 @@ TODO: Add long description of the pod here.
   s.source_files = 'No1Sdk/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'No1Sdk' => ['No1Sdk/Assets/*.png']
+  #   'No1Sdk' => ['No1Sdk/Assets/*']
   # }
-
+  
+  s.resources = ['No1Sdk/Assets/*']
+  
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'React-Core'
