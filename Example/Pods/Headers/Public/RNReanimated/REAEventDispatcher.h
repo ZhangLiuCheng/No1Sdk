@@ -1,0 +1,1 @@
+../../../RNReanimated/ios/REAEventDispatcher.h

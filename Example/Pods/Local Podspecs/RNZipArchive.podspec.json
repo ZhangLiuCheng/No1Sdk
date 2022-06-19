@@ -7,7 +7,7 @@
   "homepage": "https://github.com/mockingbot/react-native-zip-archive",
   "source": {
     "git": "https://github.com/mockingbot/react-native-zip-archive.git",
-    "tag": "v6.0.8"
+    "tag": "6.0.8"
   },
   "platforms": {
     "ios": "9.0"

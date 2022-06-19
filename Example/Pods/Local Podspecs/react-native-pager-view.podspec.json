@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/callstack/react-native-pager-view.git",
-    "tag": "v5.4.15"
+    "tag": "5.4.15"
   },
   "source_files": "ios/**/*.{h,m,mm,swift}",
   "dependencies": {
