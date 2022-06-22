@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:No1Sdk.xcodeproj">
+      location = "self:/Users/zhangliucheng/Documents/workspace/ios/No1SdkPod/Example/No1SdkPod.xcodeproj">
    </FileRef>
 </Workspace>

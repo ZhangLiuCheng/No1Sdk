@@ -2,7 +2,7 @@
 
 platform :ios, '11.0'
 
-target 'No1Sdk_Example' do
+target 'No1SdkPod' do
 
   prefix = "./No1SdkLib/node_modules/react-native"
 
